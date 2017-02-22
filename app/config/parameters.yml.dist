@@ -17,3 +17,6 @@ parameters:
 
     # A secret key that's used to generate certain security-related tokens
     secret:            ThisTokenIsNotSoSecretChangeIt
+
+    fos_user.from_email.address: fanus_language@gmail.com
+    fos_user.from_email.name: 'Fanus Language'
