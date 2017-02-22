@@ -1,10 +1,14 @@
 <?php
 
-namespace AppBundle\Entity;
+/**
+ * This User Entity is created for the login and registration users for dB fanusDutch_tigrigna.
+ *
+ * @author Eyobiel
+ */
 
+namespace AppBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 use FOS\UserBundle\Model\User as BaseUser;
-
 
 /**
  * @ORM\Entity
@@ -22,6 +26,6 @@ class User extends BaseUser
     public function __construct()
     {
         parent::__construct();
-        // your own logic
+
     }
 }
